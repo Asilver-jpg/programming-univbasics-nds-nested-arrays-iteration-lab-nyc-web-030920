@@ -22,7 +22,21 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
- 
+   new_array =[]
+  i=0
+  while i<src.count do 
+    j=0 
+    while j< src[i].count do
+      if src[i][j] > src[i][j+1] 
+      new_array << src[i][j]
+    else
+      new_array << src[i][j+1]
+    end
+      j+=2
+    end
+    i+=1
+  end
+  new_array
 end
 
 def total_even_pairs(src)
