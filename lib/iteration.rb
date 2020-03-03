@@ -41,11 +41,11 @@ def total_even_pairs(src)
     j=0 
     while j< src[i].count do
       if src[i][j] %2 == 0 && src[i][j+1] %2 ==0
-        total += (src[i][j])
+        total += (src[i][j] +src[i][j+1] )
       end
       j+=2
     end
     i+=1
   end
-  
+  total
 end
