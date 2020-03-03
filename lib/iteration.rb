@@ -13,7 +13,7 @@ def join_ingredients(src)
     j=0 
     while j< src[i].count do
       s= "I love #{src[i]} and #{src[i+1]} on my pizza" 
-      new_array >> s
+      new_array << s
       j+=2
     end
     i+=1
