@@ -8,7 +8,13 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
   new_array =[]
-  src.each do |ele|
+  i=0
+  while i<src.count do 
+    j=0 
+    while j< src[i].count do
+      s= ' ' 
+    
+  end
 end
 
 def find_greater_pair(src)
